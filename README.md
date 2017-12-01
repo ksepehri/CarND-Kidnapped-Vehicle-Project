@@ -1,5 +1,14 @@
+[//]: # (Image References)
+
+[image1]: ./images/finalresult.png "Left"
+
 # Overview
-This repository contains all the code needed to complete the final project for the Localization course in Udacity's Self-Driving Car Nanodegree.
+
+In this project I utilized a 2D particle filter to estimate the location of a moving object of interest with noisy GPS initial location, and noisy sensor and control measurements. Passing the project required obtaining error values that are lower that the tolerance outlined in the project rubric. 
+
+My Final Error: x .113, y .107, yaw .004
+
+![alt text][image1]
 
 #### Submission
 All you will submit is your completed version of `particle_filter.cpp`, which is located in the `src` directory. You should probably do a `git pull` before submitting to verify that your project passes the most up-to-date version of the grading code (there are some parameters in `src/main.cpp` which govern the requirements on accuracy and run time.)
